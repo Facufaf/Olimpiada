@@ -1,0 +1,67 @@
+.Container-Paciente {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:  #5381c5;
+    margin: 0;
+    flex-direction: column; 
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.Contenedor-Tarjetas-Paciente {
+    background-color: #1d66b4;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+
+.tarjetaPaciente {
+    background-color:  #718fbd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 100px;
+    text-align: left; 
+    position: relative; 
+}
+
+
+.tarjetaPaciente p {
+    margin: 5px 0;
+}
+
+
+.boton {
+    padding: 7px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.boton:hover {
+    text-decoration: none;
+}
+
+
+.imagen-tarjeta-paciente-editar {
+    position: absolute;
+    top: 5px; 
+    right: 5px; 
+    width: 20px; 
+}
+
+

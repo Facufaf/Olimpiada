@@ -1,0 +1,32 @@
+.fondonewpac{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5381c5;
+    margin: 0;
+    flex-direction: column; 
+}
+
+.formularioP {
+    background-color: #1c65b3;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputnewpac{
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #42EADDFF;
+    border-radius: 5px;
+}

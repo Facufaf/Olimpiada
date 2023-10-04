@@ -1,0 +1,81 @@
+.fondonuevous{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5381c5;
+    margin: 0;
+    flex-direction: column; 
+}
+
+.Usuario {
+    background-color: #1d66b4;
+    padding: 25px 50px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+}
+
+label {
+    background-color: #2a73c7;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.inputus {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 1px solid #42EADDFF;
+}
+.tipous{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    background-color: rgb(40, 139, 185);
+}
+.estado{
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 1px solid aqua;
+    background-color: rgb(40, 139, 185);
+
+}
+
+.botonus {
+    background-color: #048308;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.botonus2 {
+    background-color: #048308;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.Usuario .botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.boton:hover {
+    text-decoration: none;
+}

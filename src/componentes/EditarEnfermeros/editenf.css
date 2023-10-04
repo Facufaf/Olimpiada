@@ -1,0 +1,47 @@
+.container-editar-enfermero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5381c5;
+    margin: 0;
+    flex-direction: column; 
+}
+
+.Enfermeros-editar{
+    background-color: #1d66b4;
+    padding: 25px 50px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px; 
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.InputEditEnfermero {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    border: 1px solid #42EADDFF;
+}
+
+.BotonEditEnfermero {
+    background-color: #048308;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.boton:hover {
+    text-decoration: none;
+}

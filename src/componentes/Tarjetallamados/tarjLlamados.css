@@ -1,0 +1,91 @@
+.Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #5381c5;
+    margin: 0;
+    flex-direction: column; 
+}
+
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+.ContenedorTarjetas {
+    background-color:  #1d66b4;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: center; 
+}
+
+
+.tarjeta {
+    background-color:#718fbd;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 100px;
+    text-align: left; 
+    position: relative; 
+}
+
+.tarjeta p {
+    margin: 5px 0;
+}
+
+.boton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    margin-top: 10px; 
+}
+
+.boton:hover {
+    text-decoration: none;
+}
+
+.imagen-tarjeta {
+    position: absolute;
+    top: 5px; 
+    right: 5px; 
+    width: 20px; 
+}
+.header {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; 
+    z-index: 1000; 
+    background-color: rgb(117, 170, 230);
+}
+
+
+.boton-header-listado-pacientes {
+    background-color: #048308;
+    color: #ffffff;
+    padding: 8px 20px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.boton-header-listado-pacientes:hover {
+    background-color: #035e07; 
+}
+
