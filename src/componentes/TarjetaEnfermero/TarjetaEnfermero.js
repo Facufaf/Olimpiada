@@ -15,7 +15,7 @@ export default class Llamados extends Component {
                     <p>Especialidad</p>
                     <div className="imagen-tarjeta-enfermero">
                         {/* <!-- Enlace para redireccionar a documento.html --> */}
-                        <span onclick="" className="boton"><img className ="imagen-tarjeta-enfermero"src={imgTar}/></span>
+                        <a href="http://localhost:3000/editarenfermeros"> <span onclick="" className="boton"><img className ="imagen-tarjeta-enfermero"src={imgTar}/></span></a>
                 </div>
                 
                 </div>
@@ -30,7 +30,7 @@ export default class Llamados extends Component {
                     <p>Especialidad</p>
                         <div className="imagen-tarjeta-enfermero">
                         {/* <!-- Enlace para redireccionar a documento.html --> */}
-                       <span onclick="" className="boton"><img className ="imagen-tarjeta-enfermero"src={imgTar}/></span>
+                      <a href="http://localhost:3000/editarenfermeros"> <span onclick="" className="boton"><img className ="imagen-tarjeta-enfermero"src={imgTar}/></span></a>
                     </div>
                 </div>
                 
